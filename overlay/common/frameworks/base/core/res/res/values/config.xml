@@ -194,4 +194,7 @@
     even after user setup is complete. The defined component should be used for supervision purposes
     only. The component must be part of a system app. -->
     <string name="config_defaultSupervisionProfileOwnerComponent" translatable="false">com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver</string>
+
+    <!-- Colon separated list of package names that should be granted DND access -->
+    <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.gms:com.google.android.GoogleCamera:com.google.intelligence.sense:com.google.android.settings.intelligence</string>
 </resources>
