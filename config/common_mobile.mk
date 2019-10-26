@@ -26,13 +26,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     Backgrounds \
-    Eleven \
     Etar \
     Jelly \
     LockClock \
     Profiles \
     Seedvault \
-    TrebuchetQuickStep \
     WeatherProvider
 
 # Charger

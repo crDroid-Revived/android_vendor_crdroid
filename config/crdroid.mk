@@ -25,6 +25,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.services.whitelist.packagelist=com.google.android.gms
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    crDroidMusic
+
 # Accents
 PRODUCT_PACKAGES += \
     Amber \
