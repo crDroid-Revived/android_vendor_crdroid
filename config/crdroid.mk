@@ -28,7 +28,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Extra packages
 PRODUCT_PACKAGES += \
     crDroidMusic \
-    crDroidThemesStub
+    crDroidThemesStub \
+    OmniStyle
 
 # Accents
 PRODUCT_PACKAGES += \
