@@ -29,7 +29,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     crDroidMusic \
     crDroidThemesStub \
-    OmniStyle
+    OmniStyle \
+    Longshot
 
 # Accents
 PRODUCT_PACKAGES += \
