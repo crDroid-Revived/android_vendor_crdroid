@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
     crDroidThemesStub \
     OmniJaws \
     OmniStyle \
-    Longshot
+    StitchImage
 
 # Fonts
 PRODUCT_PACKAGES += \
