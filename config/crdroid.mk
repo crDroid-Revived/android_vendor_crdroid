@@ -33,6 +33,37 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     Longshot
 
+# Fonts
+PRODUCT_PACKAGES += \
+    fonts_customization.xml \
+    AclonicaFont \
+    Amarante \
+    BariolFont \
+    CagliostroFont \
+    CoconFont \
+    ComfortaaFont \
+    ComicSansFont \
+    CoolstoryFont \
+    ExotwoFont \
+    Fifa2018Font \
+    GoogleSansFont \
+    GrandHotelFont \
+    LatoFont \
+    LGSmartGothicFont \
+    NokiaPureFont \
+    NunitoFont \
+    OneplusSlateFont \
+    QuandoFont \
+    RedressedFont \
+    ReemKufiFont \
+    RosemaryFont \
+    RubikFont \
+    SamsungOneFont \
+    SonySketchFont \
+    StoropiaFont \
+    SurferFont \
+    UbuntuFont
+
 # Accents
 PRODUCT_PACKAGES += \
     Amber \
