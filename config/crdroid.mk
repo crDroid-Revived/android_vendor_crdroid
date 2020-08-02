@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
     NokiaPureFont \
     NunitoFont \
     OneplusSlateFont \
+    OswaldFont \
     QuandoFont \
     RedressedFont \
     ReemKufiFont \
