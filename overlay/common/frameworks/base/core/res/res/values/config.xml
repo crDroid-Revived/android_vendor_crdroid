@@ -311,4 +311,14 @@
         <item>PropValue;DEVICE;oriole</item>
         <item>PropValue;FINGERPRINT;google\/oriole_beta\/oriole:15\/AP31.240617.015\/12207491:user\/release-keys</item>
     </string-array>
+
+    <!-- Configuration hook for the URL returned by ConnectivityManager#getCaptivePortalServerUrl.
+         If empty, the returned value is controlled by Settings.Global.CAPTIVE_PORTAL_HTTP_URL,
+         and if that value is empty, the framework will use a hard-coded default.
+         This is *NOT* a URL that will always be used by the system network validation to detect
+         captive portals: NetworkMonitor may use different strategies and will not necessarily use
+         this URL. NetworkMonitor behaviour should be configured with NetworkStack resource overlays
+         instead. -->
+    <!--suppress CheckTagEmptyBody -->
+    <string translatable="false" name="config_networkCaptivePortalServerUrl">http://connectivitycheck.grapheneos.network/generate_204</string>
 </resources>
