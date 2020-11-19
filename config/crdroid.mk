@@ -233,3 +233,13 @@ PRODUCT_PACKAGES += \
     XperiaWiFiOverlay \
     ZigZagSignalOverlay \
     ZigZagWiFiOverlay
+
+#Captive-Portal detection overlays
+#(default: GrapheneOS - see vendor/lineage/overlay)
+PRODUCT_PACKAGES += \
+  overlay-204-android-Google \
+  overlay-204-android-openSUSE \
+  overlay-204-android-Ubuntu \
+  overlay-204-networkstack-Google \
+  overlay-204-networkstack-openSUSE \
+  overlay-204-networkstack-Ubuntu
