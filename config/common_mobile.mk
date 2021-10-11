@@ -6,17 +6,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.notification_sound=Chime.ogg \
     ro.config.alarm_alert=Argon.ogg
 
-# AOSP packages
-PRODUCT_PACKAGES += \
-    Email \
-    ExactCalculator \
-    Exchange2
-
-# Lineage packages
+# Apps
 PRODUCT_PACKAGES += \
     Backgrounds \
     Eleven \
     Etar \
+    ExactCalculator \
     Jelly \
     Profiles \
     Seedvault
