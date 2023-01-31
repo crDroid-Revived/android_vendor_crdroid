@@ -172,6 +172,15 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES_DEBUG += \
     procmem
 
+# Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1
+ifeq ($(TARGET_NOT_USES_BLUR),true)
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sysui.disableBlur=1
+endif
+
 # Root
 PRODUCT_PACKAGES += \
     adb_root
