@@ -921,7 +921,7 @@ alias cmkap='dopush cmka'
 
 function repopick() {
     T=$(gettop)
-    $T/lineage/scripts/repopick/repopick.py $@
+    $T/lineage/scripts/repopick/repopick.py "$@"
 }
 
 function fixup_common_out_dir() {
