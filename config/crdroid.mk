@@ -210,26 +210,26 @@ PRODUCT_PACKAGES += \
 
 # Volume Panel styles
 PRODUCT_PACKAGES += \
-	AospPanel \
-	CompactPanel \
-	OreoPanel \
-	TiledPanel
+    AospPanel \
+    CompactPanel \
+    OreoPanel \
+    TiledPanel
 
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
-	BarsSignalOverlay \
-	BarsWiFiOverlay \
-	InsideSignalOverlay \
-	InsideWiFiOverlay \
-	RoundSignalOverlay \
-	RoundWiFiOverlay \
-	SneakySignalOverlay \
-	SneakyWiFiOverlay \
-	StrokeSignalOverlay \
-	StrokeWiFiOverlay \
-	WavySignalOverlay \
-	WavyWiFiOverlay \
-	XperiaSignalOverlay \
-	XperiaWiFiOverlay \
-	ZigZagSignalOverlay \
-	ZigZagWiFiOverlay
+    BarsSignalOverlay \
+    BarsWiFiOverlay \
+    InsideSignalOverlay \
+    InsideWiFiOverlay \
+    RoundSignalOverlay \
+    RoundWiFiOverlay \
+    SneakySignalOverlay \
+    SneakyWiFiOverlay \
+    StrokeSignalOverlay \
+    StrokeWiFiOverlay \
+    WavySignalOverlay \
+    WavyWiFiOverlay \
+    XperiaSignalOverlay \
+    XperiaWiFiOverlay \
+    ZigZagSignalOverlay \
+    ZigZagWiFiOverlay
