@@ -1,17 +1,12 @@
-ifeq ($(WITH_GMS),true)
-ifeq ($(WITH_GMS_TV),true)
-$(call inherit-product, vendor/partner_gms-tv/products/gms.mk)
-else ifeq ($(WITH_GMS_CAR),true)
-$(call inherit-product, vendor/partner_gms-car/products/gms.mk)
-else ifeq ($(WITH_GMS_FI),true)
-$(call inherit-product, vendor/partner_gms/products/fi.mk)
-else ifeq ($(WITH_GMS_GO),true)
-$(call inherit-product, vendor/partner_gms/products/gms_go.mk)
-else ifeq ($(WITH_GMS_GO_2GB),true)
-$(call inherit-product, vendor/partner_gms/products/gms_go_2gb.mk)
-else ifeq ($(WITH_GMS_MINIMAL),true)
-$(call inherit-product, vendor/partner_gms/products/gms_minimal.mk)
-else
-$(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
-endif
+ifeq ($(WITH_MICROG),true)
+  $(call inherit-product, vendor/partner_gms/products/gms.mk)
+else ifeq ($(WITH_GMS),true)
+  ifeq ($(GAPPS_ARCH),)
+    $(warning GAPPS_ARCH undefined, assuming 64 bit)
+    $(warning set GAPPS_ARCH to arm if your device is 32 bit)
+    $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+  else ifeq ($(GAPPS_ARCH), arm)
+    $(warning including 32 bit gapps)
+    $(call inherit-product, vendor/gapps/arm/arm-vendor.mk)
+    endif
 endif
