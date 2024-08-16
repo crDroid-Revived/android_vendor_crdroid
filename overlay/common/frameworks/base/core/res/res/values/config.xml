@@ -304,12 +304,11 @@
 
     <!-- Alter build parameters for avoiding hardware attestation enforcement -->
     <string-array name="config_spoofBuildGms" translatable="false">
-        <item>PropValue;DEVICE;bullhead</item>
-        <item>PropValue;ID;OPR6.170623.013</item>
-        <item>PropValue;FINGERPRINT;google/bullhead/bullhead:8.0.0/OPR6.170623.013/4283548:user/release-keys</item>
-        <item>PropValue;MODEL;Nexus 5X</item>
-        <item>PropValue;PRODUCT;bullhead</item>
-        <item>VersionField;FIRST_SDK_INT;24</item>
-        <item>VersionFieldString;SECURITY_PATCH;2017-08-05</item>
+        <item>PropValue;BRAND;google</item>
+        <item>PropValue;MANUFACTURER;Google</item>
+        <item>PropValue;MODEL;Pixel 6</item>
+        <item>PropValue;PRODUCT;oriole_beta</item>
+        <item>PropValue;DEVICE;oriole</item>
+        <item>PropValue;FINGERPRINT;google\/oriole_beta\/oriole:15\/AP31.240617.015\/12207491:user\/release-keys</item>
     </string-array>
 </resources>
