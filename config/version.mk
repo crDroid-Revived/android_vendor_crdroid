@@ -2,7 +2,7 @@ PRODUCT_VERSION_MAJOR = 11
 PRODUCT_VERSION_MINOR = 0
 
 # Increase CR Version with each major release.
-CR_VERSION := 7-JUL24
+CR_VERSION := 7-AUG24
 
 ifeq ($(WITH_MICROG),true)
   CR_EXTRAVERSION := -MICROG
