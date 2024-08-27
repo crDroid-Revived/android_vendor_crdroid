@@ -181,6 +181,9 @@ ifeq ($(TARGET_ENABLE_BLUR),true)
     USES_BLUR=1
 else
     USES_BLUR=0
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.launcher.blur.appLaunch=0
 endif
 
 PRODUCT_PRODUCT_PROPERTIES += \
