@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    crDroidMusic \
     crDroidThemesStub \
     ThemePicker \
     OmniJaws \
@@ -246,3 +245,12 @@ PRODUCT_PACKAGES += \
   overlay-204-networkstack-Google \
   overlay-204-networkstack-openSUSE \
   overlay-204-networkstack-Ubuntu
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    Twelve_prebuilt \
+    Glimpse
+ifneq ($(TARGET_APERTURE_OPTOUT),true)
+PRODUCT_PACKAGES += \
+    Aperture \
+endif
