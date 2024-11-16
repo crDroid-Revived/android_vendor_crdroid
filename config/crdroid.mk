@@ -249,8 +249,8 @@ PRODUCT_PACKAGES += \
 # Prebuilts
 PRODUCT_PACKAGES += \
     Twelve_prebuilt \
-    Glimpse
+    Glimpse_prebuilt
 ifneq ($(TARGET_APERTURE_OPTOUT),true)
 PRODUCT_PACKAGES += \
-    Aperture \
+    Aperture_prebuilt
 endif
