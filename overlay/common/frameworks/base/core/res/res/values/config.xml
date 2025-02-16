@@ -304,12 +304,12 @@
 
     <!-- Alter build parameters for avoiding hardware attestation enforcement -->
     <string-array name="config_spoofBuildGms" translatable="false">
-        <item>PropValue;BRAND;google</item>
         <item>PropValue;MANUFACTURER;Google</item>
-        <item>PropValue;MODEL;Pixel 6</item>
-        <item>PropValue;PRODUCT;oriole_beta</item>
-        <item>PropValue;DEVICE;oriole</item>
-        <item>PropValue;FINGERPRINT;google\/oriole_beta\/oriole:15\/AP31.240617.015\/12207491:user\/release-keys</item>
+        <item>PropValue;MODEL;Pixel 9</item>
+        <item>PropValue;FINGERPRINT;google/tokay_beta/tokay:Baklava/BP22.250103.008/12932282:user/release-keys</item>
+        <item>PropValue;BRAND;google</item>
+        <item>PropValue;PRODUCT;tokay_beta</item>
+        <item>PropValue;DEVICE;tokay</item>
     </string-array>
 
     <!-- Configuration hook for the URL returned by ConnectivityManager#getCaptivePortalServerUrl.
