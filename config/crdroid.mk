@@ -1,5 +1,5 @@
 # Unofficial patch level
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.lineage.custom_version=2025-02-01
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.lineage.custom_version=2025-04-01
 
 # Additional props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
