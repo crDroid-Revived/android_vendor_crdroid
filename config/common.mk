@@ -173,14 +173,14 @@ PRODUCT_PACKAGES_DEBUG += \
     procmem
 
 # Blur
-ifndef TARGET_NOT_USES_BLUR
-    USES_BLUR=1
+ifndef TARGET_ENABLE_BLUR
+    USES_BLUR=0
 endif
 
-ifeq ($(TARGET_NOT_USES_BLUR),true)
-    USES_BLUR=0
-else
+ifeq ($(TARGET_ENABLE_BLUR),true)
     USES_BLUR=1
+else
+    USES_BLUR=0
 endif
 
 PRODUCT_PRODUCT_PROPERTIES += \
