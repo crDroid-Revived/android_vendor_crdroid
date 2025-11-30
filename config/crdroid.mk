@@ -244,3 +244,7 @@ ifneq ($(TARGET_APERTURE_OPTOUT),true)
 PRODUCT_PACKAGES += \
     Aperture_prebuilt
 endif
+
+# PDF
+PRODUCT_PACKAGES += \
+    MuPDF
