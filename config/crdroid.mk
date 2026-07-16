@@ -51,7 +51,7 @@ PRODUCT_PACKAGES += \
     fonts_customization.xml \
     AccuratistFont \
     AclonicaFont \
-    Amarante \
+    AmaranteFont \
     BariolFont \
     CagliostroFont \
     CoconFont \
